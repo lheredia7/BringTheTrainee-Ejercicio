@@ -9,6 +9,6 @@ Después pensé en el problema de los puentes de Euler pero también lo descart�
 Finalmente le pregunte a chatGPT y me respondió que necesitaba un circuito Hamiltoniano.
 
 RESOLUCIÓN EN CÓDIGO:
-Elegí programarlo en Javascript porque el el lenguaje que estoy usando en mi trabajo actual y también en una materia que estoy cursando actualmente.
-Le pedí a chatGPT que me cree el código para hacer un grafo y que me permita agregarle nodos y aristas a partir de dos archivos csv (nodos.csv y aristas.csv) y también le pedí que agregue un método para que me de todos los cirsuitos hamiltonianos posibles que se pueden formar a partir de los nodos del grafo.
+Elegí programarlo en Javascript porque es el lenguaje que estoy usando en mi trabajo actual y también en una materia que estoy cursando actualmente.
+Le pedí a chatGPT que me cree el código para hacer un grafo y que me permita agregarle nodos y aristas a partir de dos archivos csv (nodos.csv y aristas.csv) y también le pedí que agregue un método para que me de todos los circuitos hamiltonianos posibles que se pueden formar a partir de los nodos del grafo.
 Una vez que tengo todas las rutas posibles tengo que usar la fuerza bruta (calcular el costo total de cada ruta) para calcular la ruta que tiene menor costo ya que no puede haber ninguna que tenga un costo menor.
